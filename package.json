@@ -1,7 +1,7 @@
 {
   "name": "quill-html-edit-button-vuetify",
   "description": "A Quill rich text editor Module which adds an html edit button to the quill editor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "dist/quill.htmlEditButton.min.js",
   "types": "types/index.d.ts",
   "repository": "https://github.com/ExentisSoftware/quill-html-edit-button-vuetify",
@@ -13,14 +13,13 @@
     "build-lib": "webpack --mode production",
     "build-types": "tsc --declaration --emitDeclarationOnly",
     "test": "jest",
-    "test-watch": "jest --watch-all",
-    "clean": "rm -rf dist/",
-    "prepublish": "npm run build"
+    "test-watch": "jest --watch-all"
   },
   "keywords": [
     "quill",
     "quilljs",
     "html",
+    "vuetify",
     "button",
     "edit"
   ],
