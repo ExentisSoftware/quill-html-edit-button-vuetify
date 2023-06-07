@@ -14,7 +14,8 @@
     "build-types": "tsc --declaration --emitDeclarationOnly",
     "test": "jest",
     "test-watch": "jest --watch-all",
-    "clean": "rm -rf dist/"
+    "clean": "rm -rf dist/",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "quill",
