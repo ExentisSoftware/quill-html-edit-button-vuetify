@@ -87,10 +87,10 @@ function launchPopupEditor(
   codeBlock.innerText = FormatHTMLStringIndentation(htmlFromEditor, Logger);
   const htmlEditor = $create("div");
   $setAttr(htmlEditor, "class", "ql-html-textArea");
-  const buttonCancel = $create("button");
+  const buttonCancel = $create("v-btn");
   buttonCancel.innerHTML = cancelText;
   $setAttr(buttonCancel, "class", "ql-html-buttonCancel");
-  const buttonOk = $create("button");
+  const buttonOk = $create("v-btn");
   buttonOk.innerHTML = okText;
   $setAttr(buttonOk, "class", "ql-html-buttonOk");
   const buttonGroup = $create("div");
